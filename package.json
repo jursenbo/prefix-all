@@ -1,0 +1,16 @@
+{
+  "name": "prefixer",
+  "version": "1.0.0",
+  "description": "Custom prefixer.",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "inline-style-prefixer": "^3.0.8"
+  },
+  "devDependencies": {
+    "caniuse-api": "^2.0.0"
+  },
+  "scripts": {
+    "build": "node generatePrefixer.js"
+  }
+}
